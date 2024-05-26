@@ -1,15 +1,5 @@
 # kickstart.nvim
 
-## Introduction
-
-A starting point for Neovim that is:
-
-* Small
-* Single-file
-* Completely Documented
-
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
-
 ## Installation
 
 ### Install Neovim
@@ -60,9 +50,6 @@ fork to your machine using one of the commands below, depending on your OS.
 > `https://github.com/<your_github_username>/kickstart.nvim.git`
 
 #### Clone kickstart.nvim
-> **NOTE**
-> If following the recommended step above (i.e., forking the repo), replace
-> `nvim-lua` with `<your_github_username>` in the commands below
 
 <details><summary> Linux and Mac </summary>
 
