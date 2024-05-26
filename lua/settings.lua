@@ -20,6 +20,10 @@ vim.opt.showmode = false
 --  See `:help 'clipboard'`
 vim.opt.clipboard = 'unnamedplus'
 
+-- tabs set to 4 spaces
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 -- Enable break indent
 vim.opt.breakindent = true
 
@@ -55,6 +59,10 @@ vim.opt.inccommand = 'split'
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
+
+-- conceal links
+vim.opt.conceallevel = 2
+vim.opt.concealcursor = 'nc'
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
